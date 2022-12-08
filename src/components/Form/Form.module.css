@@ -1,0 +1,12 @@
+.form {
+    flex-direction: column;
+    margin-bottom: 15px;
+    
+
+};
+.btn {
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
