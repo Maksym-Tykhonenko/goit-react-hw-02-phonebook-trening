@@ -39,7 +39,8 @@ class Form extends Component {
         return (
          <form className={css.form} onSubmit={this.handleAddContact}>
             <label htmlFor="">Name
-                <input
+                    <input
+                    placeholder="Name"
                     value={this.state.name}
                     onChange={this.handleInputContact}
                     type="text"
@@ -50,7 +51,8 @@ class Form extends Component {
             </label> 
                 
             <label htmlFor="">Number
-                <input
+                    <input
+                    placeholder="Number"
                     value={this.state.number}
                     onChange={this.handleInputContact}
                     type="tel"

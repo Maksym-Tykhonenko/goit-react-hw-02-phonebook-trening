@@ -1,11 +1,22 @@
 .list {
     list-style: none;
+    padding-left: 0;
+    
+    
 
 }
 .item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
+
+}
+.name {
+   font-weight: bold;
+}
+.number {
+   font-weight: bold;
 }
 .btn {
     width: 50px;
@@ -13,5 +24,7 @@
     border: 1px solid black;
     border-radius: 5px;
     background-color: gold;
-
+}
+.btn:hover {
+    border: 3px solid black;
 }

@@ -7,8 +7,8 @@ const ContactList = ({ contact, deliteContact }) => {
             {contact.map(({ name, number, id }) => {
                 return (
                     <li className={css.item} key={id}>
-                        <p>{name}</p>
-                        <p>{number}</p>
+                        <p className={css.name}>{name}</p>
+                        <p className={css.number}>{number}</p>
                         <button
                             className={css.btn}    
                             type="button" 

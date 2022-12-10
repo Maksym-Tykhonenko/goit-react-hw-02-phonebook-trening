@@ -1,7 +1,12 @@
-const Filter = ({filter, addToFilterContact}) => {
+import css from './Filter.module.css';
+
+
+const Filter = ({ filter, addToFilterContact }) => {
 
     return (
         <input
+            placeholder='Filter'
+            className={css.filter}
             value={filter}
             onChange={addToFilterContact}
             type="filter"
