@@ -1,6 +1,6 @@
 .form {
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     
 
 };
@@ -8,5 +8,5 @@
     width: 150px;
     border: 1px solid black;
     border-radius: 5px;
-
-}
+    margin-left: 5px;
+};
